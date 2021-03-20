@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  background-color: #ffee58;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: black;
+  opacity: 60%;
+  margin: auto;
+  padding: 5px;
+  width: fit-content;
+}
+
+.header ul li {
+  display: inline-flex;
+  padding: 2px;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
