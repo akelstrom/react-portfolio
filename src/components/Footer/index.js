@@ -1,21 +1,21 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
-const Contact = () => (
-  <div class="row">
+const Footer = () => (
+  <div class="row margin-top">
           <div class="col s12">
-            <h5 class="subheader">Full-Stack Web Developer</h5>
             <ul class="contact">
               <li>
-                <a href="mailto:akelstrom@gmail.com">EMAIL</a>
+                <a href="mailto:akelstrom@gmail.com"><SiGmail />EMAIL</a>
               </li>
               <li>
                 <a href="https://github.com/akelstrom"
-                  >GITHUB</a
-                >
+                  ><FaGithub /> GITHUB</a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/akelstrom/"
-                  >LINKEDIN</a
+                  > <FaLinkedin />LINKEDIN</a
                 >
               </li>
             </ul>
@@ -23,4 +23,4 @@ const Contact = () => (
         </div>
 );
 
-export default Contact;
+export default Footer;

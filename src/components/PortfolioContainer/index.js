@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Projects from "../Pages/Projects/";
-import Contact from "../Contact";
-import Nav from "../Nav";
+import Footer from "../Footer";
+import Header from "../Header";
 import About from "../Pages/About";
 
 
@@ -23,15 +23,11 @@ const Portfolio = () => {
 
   return (
     <div className="container">
-     
-    <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
-    <a href="Home" >
-            <h1 className="brand-logo">ALEXANDRA KELSTROM</h1>
-          </a>
-    <Contact className="about-me"></Contact>
+    <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
     <div>
       {renderPage(currentPage)}
     </div>
+    <Footer />
   </div>
   );
 };

@@ -45,7 +45,7 @@ ul li a:focus {
 }
 
 ul li a:hover {
-  background-color: #ffee58; 
+  background-color: #ffee58;
   opacity: 60%;
 }
 
@@ -57,6 +57,10 @@ ul li a:hover {
   display: inline;
   padding: 15px;
   font-weight: 100;
+}
+
+.margin-top {
+  margin: 1rem;
 }
 
 .subheader {

@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub } from 'react-icons/fa'
+import { AiOutlineExport } from 'react-icons/ai';
 
 const ProjectCard = (props) => {
     const toolsArray = props.tools
@@ -24,8 +26,8 @@ const ProjectCard = (props) => {
                                     </ul>
                             </div>
                             <div className="card-action center">
-                                <a href={props.deployed}>Fridge Friend</a>
-                                <a href={props.github}>GitHub Repo</a>
+                                <a href={props.deployed}> <AiOutlineExport /> {props.name}</a>
+                                <a href={props.github}> <FaGithub /> GitHub Repo</a>
                             </div>  
         </div>
     )

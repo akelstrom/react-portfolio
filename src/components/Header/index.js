@@ -1,11 +1,14 @@
 import React from "react";
 
+
 const Nav = (props) => {
   const tabs = ["About Me", "Projects"];
 
   return (
         <div className="nav-wrapper white">
-          <ul className="right" id="mobile-demo">
+           <h1 className="brand-logo">ALEXANDRA KELSTROM</h1>
+          <h5 class="subheader">Full-Stack Web Developer</h5>
+          <ul className="center">
             {tabs.map((tab) => (
               <li key={tab}
               className>

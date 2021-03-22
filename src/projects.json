@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Fridge Friend",
+        "name": "FRIDGE FRIEND",
         "type": "Full-Stack Application",
         "image": "../../assets/images/fridge-friend-ss.png",
         "description": "My group and I created a web app that allows users to create an account and manage items in their refrigerator. Users can add items to their fridge with the item name, quantity, category and expiration date. The users dashboard will display the fridge items with each items info. Users will receive email notifications telling them that items are expiring soon/expired. Users have the ability to filter their fridge items by category, update an item's quantity and deleted a used or expired item.",
@@ -11,51 +11,50 @@
     },
     {
         "id": 2,
-        "name": "Taco Lover",
+        "name": "TACO LOVER",
         "type": "Front-End Application",
         "image": "../../assets/images/Taco-lover.png",
         "description": "My group and I made a web app that allows the user to choose how they enjoy their tacos: make them at home or order out? With Taco Lover, the user has the option to choose between being shown a random recipe to make themselves or taco spots in their area. The user can even save them for future reference!",
         "tools": ["JavaScript", "CSS", "HTML", "Materialize", "Google Maps API", "Taco Fancy API"],
-        "github": "https://github.com/akelstrom/fridge-friend",
-        "deployed": "https://fridg3-fri3nd.herokuapp.com/"
+        "github": "https://akelstrom.github.io/taco-app/",
+        "deployed": "https://github.com/akelstrom/taco-app"
     },
     {
         "id": 3,
-        "name": "Taco Lover",
-        "type": "Front-End Application",
-        "image": "public/assets/images/Taco-lover.png",
-        "description": "My group and I made a web app that allows the user to choose how they enjoy their tacos: make them at home or order out? With Taco Lover, the user has the option to choose between being shown a random recipe to make themselves or taco spots in their area. The user can even save them for future reference!",
-        "tools": ["JavaScript", "CSS", "HTML", "Materialize", "Google Maps API", "Taco Fancy API"],
-        "github": "https://github.com/akelstrom/fridge-friend",
-        "deployed": "https://fridg3-fri3nd.herokuapp.com/"
+        "name": "TEAM PROFILE BUILDER",
+        "type": "Back-End Application",
+        "image": "../../assets/images/team-profile.png",
+        "description": "A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",        
+        "tools": ["JavaScript", "Object Orriented Programming", "HTML", "Node.js", "npm Inquirer", "Bootstrap"],
+        "github": "https://github.com/akelstrom/team-profile-generator",
+        "deployed": "https://akelstrom.github.io/team-profile-generator/"
     },
     {
         "id": 4,
-        "name": "Taco Lover",
+        "name": "READ ME GENERATOR",
+        "type": "Back-End Application",
+        "image": "../../assets/images/read-me-gen.png",
+        "description": "A Node.js a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
+        "tools": ["JavaScript", "ES6", "Node.js", "npm Inquirer"],
+        "github": "https://github.com/akelstrom/readme-generator"
+    },
+    {
+        "id": 5,
+        "name": "WEATHER DASHBOARD",
         "type": "Front-End Application",
-        "image": "public/assets/images/Taco-lover.png",
-        "description": "My group and I made a web app that allows the user to choose how they enjoy their tacos: make them at home or order out? With Taco Lover, the user has the option to choose between being shown a random recipe to make themselves or taco spots in their area. The user can even save them for future reference!",
-        "tools": ["JavaScript", "CSS", "HTML", "Materialize", "Google Maps API", "Taco Fancy API"],
+        "image": "../../assets/images/weather.png",
+        "description": "Used OpenWeather API to retrieve weather data for cities for this weather dashboard app that runs in the browser and features dynamically updated HTML and CSS.",
+        "tools": ["JavaScript", "CSS", "HTML", "Bootstrap", "OpenWeatherAPI", "AJAX"],
         "github": "https://github.com/akelstrom/fridge-friend",
         "deployed": "https://fridg3-fri3nd.herokuapp.com/"
     },
     {
-        "id": 5,
-        "name": "Taco Lover",
-        "type": "Front-End Application",
-        "image": "public/assets/images/Taco-lover.png",
-        "description": "My group and I made a web app that allows the user to choose how they enjoy their tacos: make them at home or order out? With Taco Lover, the user has the option to choose between being shown a random recipe to make themselves or taco spots in their area. The user can even save them for future reference!",
-        "tools": ["JavaScript", "CSS", "HTML", "Materialize", "Google Maps API", "Taco Fancy API"],
-        "github": "https://github.com/akelstrom/fridge-friend",
-        "deployed": "https://fridg3-fri3nd.herokuapp.com/"
-    },
-    {
-        "id": 5,
-        "name": "Taco Lover",
-        "type": "Front-End Application",
-        "image": "public/assets/images/Taco-lover.png",
-        "description": "My group and I made a web app that allows the user to choose how they enjoy their tacos: make them at home or order out? With Taco Lover, the user has the option to choose between being shown a random recipe to make themselves or taco spots in their area. The user can even save them for future reference!",
-        "tools": ["JavaScript", "CSS", "HTML", "Materialize", "Google Maps API", "Taco Fancy API"],
+        "id": 6,
+        "name": "NOTE TAKER",
+        "type": "Full-Stack Application",
+        "image": "../../assets/images/note-taker.png",
+        "description": "An web app called Note Taker that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.",
+        "tools": ["JavaScript", "CSS", "HTML", "Express.js", "Heroku","Insomnia Core", "JSON"],
         "github": "https://github.com/akelstrom/fridge-friend",
         "deployed": "https://fridg3-fri3nd.herokuapp.com/"
     }
