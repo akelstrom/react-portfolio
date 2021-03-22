@@ -23,9 +23,10 @@ const Portfolio = () => {
 
   return (
     <div className="container">
+     
     <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
-    <a href="Home" className="brand-logo">
-            ALEXANDRA KELSTROM
+    <a href="Home" >
+            <h1 className="brand-logo">ALEXANDRA KELSTROM</h1>
           </a>
     <Contact className="about-me"></Contact>
     <div>
