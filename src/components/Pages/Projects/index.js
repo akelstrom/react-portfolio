@@ -7,7 +7,8 @@ const Projects = () => {
 const projectList = projects
     return (
         <CardWrapper className="grid-container">
-            <h1>Projects</h1>
+            <h4 className="light-weight">Portfolio</h4>
+            <div className="row">
             {
                 projectList.map(projects => (
                     <ProjectCard 
@@ -19,9 +20,11 @@ const projectList = projects
                     description={projects.description}
                     tools={projects.tools}
                     github={projects.github}
-                    deployed={projects.deployed}/>
+                    deployed={projects.deployed}
+                    className="project-card"/>
                 ))
             }
+            </div>
         </CardWrapper>
     );
     

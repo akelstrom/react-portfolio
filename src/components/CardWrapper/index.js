@@ -1,9 +1,9 @@
 import React from "react";
 
-const Wrapper = (props) => {
-    return (
-        <div className="grid-container">{props.children}</div>
-    )
-}
+const CardWrapper = (props) => {
+  return <div>
+      {props.children}
+      </div>;
+};
 
-export default Wrapper;
+export default CardWrapper;

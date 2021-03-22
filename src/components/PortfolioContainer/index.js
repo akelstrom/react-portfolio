@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Projects from "../Pages/Projects/";
-import About from "../Pages/About";
-import Contact from "../Pages/Contact";
+import Contact from "../Contact";
 import Nav from "../Nav";
+import About from "../Pages/About";
 
 
 const Portfolio = () => {
@@ -12,23 +12,22 @@ const Portfolio = () => {
   //render the page
   const renderPage = () => {
     switch (currentPage) {
-      case "About":
+      case "About Me":
         return <About />;
-      case "Contact":
-        return <Contact />;
       case "Projects":
         return <Projects />;
-      case "Home" :
-        return <Projects />
       default:
         return <Projects />;
     }
   };
 
   return (
-    <div className="header">
-      <h1 className="name">ALEXANDRA KELSTROM</h1>
-    <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+    <div className="container">
+    <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+    <a href="Home" className="brand-logo">
+            ALEXANDRA KELSTROM
+          </a>
+    <Contact className="about-me"></Contact>
     <div>
       {renderPage(currentPage)}
     </div>
