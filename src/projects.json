@@ -3,7 +3,7 @@
         "id": 1,
         "name": "FRIDGE FRIEND",
         "type": "Full-Stack Application",
-        "image": "../../assets/images/fridge-friend-ss.png",
+        "image": "assets/images/fridge-friend-ss.png",
         "description": "My group and I created a web app that allows users to create an account and manage items in their refrigerator. Users can add items to their fridge with the item name, quantity, category and expiration date. The users dashboard will display the fridge items with each items info. Users will receive email notifications telling them that items are expiring soon/expired. Users have the ability to filter their fridge items by category, update an item's quantity and deleted a used or expired item.",
         "tools": ["JavaScript", "CSS", "HTML", "TailWind", "Node.js", "Handlebars.js", "NodeMailer", "EJS", "Express.js", "MySQL", "Sequelize.js", "BCrypt", "Heroku", "Adobe Illustrator"],
         "github": "https://github.com/akelstrom/fridge-friend",

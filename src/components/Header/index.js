@@ -22,7 +22,6 @@ const Nav = (props) => {
             ))}
           </ul>
         </div>
-        
   );
 };
 
