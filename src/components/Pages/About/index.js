@@ -20,13 +20,13 @@ const About = () => (
     </p>
     <div className="container2">
       <div className="row2">
-            <div class="column2">
+            <div className="column2">
               <img src={"../../assets/images/happy.jpeg"} width="250px" height="250px" alt="happy"/>
             </div>
-            <div class="column2 middle">
+            <div className="column2 middle">
               <img src={"assets/images/door.jpeg"} width="250px" height="600px" alt="places-lived"/>
             </div>
-            <div class="column2">
+            <div className="column2">
               <img src={"assets/images/hotdog.jpg"} width="350px" height="250px" alt="hot-dog"/>
             </div>
       </div>

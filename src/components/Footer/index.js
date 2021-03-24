@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 
 const Footer = () => (
-  <div class="row margin-top">
-          <div class="col s12">
+  <div className="row margin-top">
+          <div className="col s12">
             <ul class="contact">
               <li>
                 <a href="mailto:akelstrom@gmail.com"><SiGmail />EMAIL</a>
